@@ -2,9 +2,11 @@
 // @name IITC Plugin: Copy Formatted D-Link
 // @id formatteddlink
 // @category Info
-// @version 0.1.1
+// @version 0.1.2
 // @description Copies formatted dynamic link to clipboard on click.
 // @author tehstone
+// @namespace    https://github.com/tehstone/assorted-iitc-scripts/
+// @downloadURL  https://github.com/tehstone/assorted-iitc-scripts/raw/main/CopyFormattedPrimeLink.user.js
 // @include https://intel.ingress.com/*
 // @match https://intel.ingress.com/*
 // @grant none
