@@ -2,9 +2,11 @@
 // @name IITC Plugin: helpful copyables
 // @id helpfulcopyables
 // @category Info
-// @version 0.1.0
+// @version 0.1.1
 // @description Copies various info to clipboard on click.
 // @author tehstone
+// @namespace    https://github.com/tehstone/assorted-iitc-scripts/
+// @downloadURL  https://github.com/tehstone/assorted-iitc-scripts/raw/main/helpful-copyables.user.js
 // @include https://intel.ingress.com/*
 // @match https://intel.ingress.com/*
 // @grant none
