@@ -2,7 +2,7 @@
 // @name IITC Plugin: Copy Formatted D-Link
 // @id formatteddlink
 // @category Info
-// @version 0.1.2
+// @version 0.1.3
 // @description Copies formatted dynamic link to clipboard on click.
 // @author tehstone
 // @namespace    https://github.com/tehstone/assorted-iitc-scripts/
@@ -43,7 +43,8 @@ function wrapper(plugin_info) {
             copyDLink.textContent = 'Dynamic Link';
             copyDLink.addEventListener('click', function(e) {
                 if (window.isSmartphone()) {
-                    alert(`${formattedLink}`);
+                    app.shareString(`${formattedLink}`);
+                    //alert(`${formattedLink}`);
                 } else {
                     navigator.clipboard.writeText(`${formattedLink}`);
                 }
